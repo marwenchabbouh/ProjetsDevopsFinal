@@ -33,8 +33,22 @@ public class SessionService implements ISessionService{
 
 	@Override
 	public void affecterFormateurASession(Long formateurId, Long sessionId) {
-			/*todo*/
+			
 		
+		
+		Session session = sessionRepository.findById(sessionId).orElse(null);
+		Formateur formateur = new Formateur();
+		formateur.setId(formateurId);
+		session.setFormateur(formateur);
+		
+		sessionRepository.save(session);
+		
+	}
+
+	@Override
+	public Session getSessionById(Long sessionId) {
+		// TODO Auto-generated method stub
+		return sessionRepository.findById(sessionId).orElse(null);
 	}
 
 }
