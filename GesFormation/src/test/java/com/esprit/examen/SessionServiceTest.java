@@ -1,7 +1,9 @@
 package com.esprit.examen;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
@@ -21,34 +23,59 @@ import com.esprit.examen.services.ISessionService;
 @SpringBootTest
 @RunWith(SpringRunner.class)
 public class SessionServiceTest {
+	
 
 	@Autowired
 	private ISessionService sessionService;
-
+	
+	
 	@Test
 	public void createSession() throws ParseException {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
-		Date dateFin = dateFormat.parse("2022-06-23");
+		Date dateDebut = dateFormat.parse("2021-05-15");
+		Date dateFin = dateFormat.parse("2021-05-18");
+
 		Session session = new Session();
-		session.setDateDebut(new Date());
+		session.setDateDebut(dateDebut);
 		session.setDateFin(dateFin);
 		session.setDuree(100l);
-		session.setDescription("Formation spring boot");
+		session.setDescription("Test et spring");
 		Long id = sessionService.addSession(session);
-		assertEquals(1, id);
+		//assertEquals(15, id);
+		assertThat(id).isNotNull();
 	}
-
+/*	
+	@Test
+	public void deleteSession() {
+		sessionService.supprimerSession(14l);
+		Session s = sessionService.getSessionById(14l);
+				assertTrue(s == null);
+		
+	}
+*/
 	@Test
 
 	public void affectFormateurToSession() {
 
-		sessionService.affecterFormateurASession(2l, 1l);
+		sessionService.affecterFormateurASession(8l, 8l);
 
-		Session session = sessionService.getSessionById(1l);
+		Session session = sessionService.getSessionById(8l);
 	
-		assertNotEquals( "ONS"	, session.getFormateur().getNom());
+		assertEquals( "trabelsi"	, session.getFormateur().getNom());
 		
 
+	}
+	//	public Session(Long id, Date dateDebut, Date dateFin, Long duree, String description) 
+
+	@Test
+	public void modifierSession () throws ParseException {
+		Session k = sessionService.getSessionById(5l);
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+		
+		Session session = new Session(5l,dateFormat.parse("2021-05-15"),dateFormat.parse("2021-05-15"),114l,"loooooool");
+		long id = sessionService.modifierSession(session);
+		Session s = sessionService.getSessionById(id)	;
+		assertEquals(k.getDuree(), s.getDuree());
 	}
 }
