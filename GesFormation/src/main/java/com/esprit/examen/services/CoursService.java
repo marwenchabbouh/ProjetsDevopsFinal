@@ -46,7 +46,16 @@ public class CoursService implements ICoursService {
 		List<Cours> cours = coursRepository.findAll();
 		return cours;
 	}
+	
+	
+	
+	@Override
+public Cours getCoursByIdgt(Long id) {
+	return coursRepository.findById(id).orElse(null);
+			}
 
+	
+	
 	@Override
 	public void affecterCoursASession(Long coursId, Long sessionId) {
 
@@ -59,5 +68,14 @@ public class CoursService implements ICoursService {
 //		
 		coursRepository.save(cours);
 	}
+//coursRepository.findById(id).orElse(null);
+
+
+
+	
+
+	
+
+
 
 }

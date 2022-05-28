@@ -1,11 +1,16 @@
 package com.esprit.examen;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
+
+
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
 import java.util.List;
+
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,6 +24,10 @@ import com.esprit.examen.entities.Poste;
 import com.esprit.examen.entities.TypeCours;
 import com.esprit.examen.services.IFormateurService;
 
+
+
+import lombok.extern.slf4j.Slf4j;
+@Slf4j
 @SpringBootTest
 @RunWith(SpringRunner.class)
 public class FormationServiceTest {
@@ -28,12 +37,11 @@ public class FormationServiceTest {
 
 	@Test
 	public void addFormateur() {
-		Formateur formateur = new Formateur("Bounasri", "Mourad", Poste.Ingénieur, Contrat.EXPERT,
-				"mouradbounasri@gmail.com", "123", false, null);
+		Formateur formateur = new Formateur("trabelsi", "nawres",Poste.Ingénieur, Contrat.EXPERT,
+				"Marwen.chabbouh@gmail.com", "123", false, null);
 
 		Long id = formateurService.addFormateur(formateur);
-		assertThat(id).isEqualTo(4);
-
+		assertThat(id).isNotEqualTo(5);
 	}
 
 	@Test
@@ -54,26 +62,33 @@ public class FormationServiceTest {
 
 	@Test
 	public void updateFormateur() {
-		Formateur formateur = new Formateur(1l, "Bounasri", "Mourad", Poste.Technicien, Contrat.EXPERT,
-				"mouradbounasri@gmail.com", "123");
+		Formateur k = formateurService.getFormateurById(5l);
+
+		Formateur formateur = new Formateur(5l, "hameli", "Basma", Poste.Technicien, Contrat.EXPERT,
+				"bengmrabasma@gmail.com", "123");
 
 		Long id = formateurService.modifierFormateur(formateur);
-
 		Formateur f = formateurService.getFormateurById(id);
 
-		assertNotEquals(formateur.getPoste(), f.getPoste());
+
+		assertEquals(k.getNom(), f.getNom());
 
 	}
 
-	@Test
+	/*@Test
 	public void deleteFormateur() {
+		
 
-		formateurService.supprimerFormateur(1l);
+		formateurService.supprimerFormateur(12l);
 
-		Formateur f = formateurService.getFormateurById(1l);
+		Formateur f = formateurService.getFormateurById(12l);
 
 		assertTrue(f == null);
 
-	}
+		log.info("Test Delete success" );	
+		
+
+
+	}*/
 
 }
