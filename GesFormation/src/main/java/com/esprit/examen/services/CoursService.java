@@ -1,18 +1,21 @@
 package com.esprit.examen.services;
 
-import java.util.ArrayList;
-import java.util.HashSet;
+
+
+
 import java.util.List;
-import java.util.Set;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.esprit.examen.entities.Cours;
-import com.esprit.examen.entities.Session;
-import com.esprit.examen.repositories.CoursRepository;
-import com.esprit.examen.repositories.SessionRepository;
 
+import com.esprit.examen.repositories.CoursRepository;
+
+
+import lombok.extern.slf4j.Slf4j;
+@Slf4j
 @Service
 public class CoursService implements ICoursService {
 
@@ -20,8 +23,8 @@ public class CoursService implements ICoursService {
 	CoursRepository coursRepository;
 
 	
-	@Autowired
-	private SessionRepository sessionRepository;
+	//@Autowired
+	//private SessionRepository sessionRepository;
 	@Override
 	public Long addCours(Cours cours) {
 		coursRepository.save(cours);
@@ -29,9 +32,11 @@ public class CoursService implements ICoursService {
 	}
 
 	@Override
-	public Long modifierCours(Cours cours) {
-		coursRepository.save(cours);
-		return cours.getId();
+	public Long modifierCours(Cours cour) {
+		coursRepository.save(cour);
+		log.info("serivce delete");
+		
+		return cour.getId();
 	}
 
 	@Override
@@ -59,14 +64,14 @@ public Cours getCoursByIdgt(Long id) {
 	@Override
 	public void affecterCoursASession(Long coursId, Long sessionId) {
 
-		Cours cours = coursRepository.findById(coursId).orElse(null);
+		//Cours cours = coursRepository.findById(coursId).orElse(null);
 
-		Session session = sessionRepository.findById(sessionId).orElse(null);
+		//Session session = sessionRepository.findById(sessionId).orElse(null);
 //	session.getCours().add(cours);
 //	sessionRepository.save(session);
-		cours.getSessions().add(session);
+	//	cours.getSessions().add(session);
 //		
-		coursRepository.save(cours);
+		//coursRepository.save(cours);
 	}
 //coursRepository.findById(id).orElse(null);
 

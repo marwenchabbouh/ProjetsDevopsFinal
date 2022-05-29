@@ -1,6 +1,7 @@
 package com.esprit.examen;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
 import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
@@ -42,7 +43,7 @@ public class CoursServiceTest {
 	
 	@Test
 	public void updateSessionTest() {
-		Cours ca = coursService.getCoursByIdgt(5l);
+		//Cours ca = coursService.getCoursByIdgt(5l);
 
 		Cours cours = new Cours( 5l ,"Cours1333",TypeCours.Informatique,"Javaaaa");
 		Long id = coursService.modifierCours(cours);

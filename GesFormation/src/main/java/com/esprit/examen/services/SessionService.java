@@ -2,11 +2,7 @@ package com.esprit.examen.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.esprit.examen.entities.Contrat;
-import com.esprit.examen.entities.Formateur;
 import com.esprit.examen.entities.Session;
-import com.esprit.examen.repositories.FormateurRepository;
 import com.esprit.examen.repositories.SessionRepository;
 
 @Service
@@ -36,12 +32,12 @@ public class SessionService implements ISessionService{
 			
 		
 		
-		Session session = sessionRepository.findById(sessionId).orElse(null);
-		Formateur formateur = new Formateur();
-		formateur.setId(formateurId);
-		session.setFormateur(formateur);
+		//Session session = sessionRepository.findById(sessionId).orElse(null);
+		//Formateur formateur = new Formateur();
+		//formateur.setId(formateurId);
+		//session.setFormateur(formateur);
 		
-		sessionRepository.save(session);
+		//sessionRepository.save(session);
 		
 	}
 
