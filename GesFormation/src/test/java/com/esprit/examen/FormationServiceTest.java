@@ -42,6 +42,7 @@ public class FormationServiceTest {
 
 		Long id = formateurService.addFormateur(formateur);
 		assertThat(id).isNotEqualTo(5);
+		log.info("add succuss");
 	}
 
 	@Test
@@ -49,6 +50,7 @@ public class FormationServiceTest {
 
 		List<Formateur> formateurs = formateurService.listFormateurs();
 		assertThat(formateurs).size().isNotNull();
+		
 
 	}
 

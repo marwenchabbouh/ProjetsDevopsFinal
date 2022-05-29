@@ -2,6 +2,7 @@ package com.esprit.examen.services;
 
 import java.util.List;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -34,7 +35,8 @@ public class FormateurService implements IFormateurService{
 
 	@Override
 	public Long nombreFormateursImpliquesDansUnCours(TypeCours typeCours) {
-		return formateurRepository.nombreFormateursImpliquesDansUnCours(typeCours);
+		Long NFormateur = formateurRepository.nombreFormateursImpliquesDansUnCours(typeCours);
+		return NFormateur ;
 		
 	}
 
