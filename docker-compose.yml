@@ -15,5 +15,5 @@ services:
     environment:
       MYSQL_DATABASE: testF #Create an initial empty database called webserver
       MYSQL_ROOT_USER: root #root user
-      MYSQL_ROOT_PASSWORD: root #root password
+      MYSQL_ROOT_PASSWORD:   #root password
       MYSQL_ROOT_HOST: '%' 

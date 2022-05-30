@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
 ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} GesF-1.0.jar
+COPY ${JAR_FILE} GesF-1.1.0-SNAPSHOT
 EXPOSE 8082
-ENTRYPOINT ["java","-jar","/GesF-1.0.jar"]
+ENTRYPOINT ["java","-jar","/GesF-1.1.0-SNAPSHOT"]
