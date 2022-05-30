@@ -1,0 +1,110 @@
+2022-05-30 13:36:13.982  INFO 27444 --- [main] com.esprit.examen.SessionServiceTest     : Starting SessionServiceTest on LAPTOP-53ACSG4Q with PID 27444 (started by Chaima in C:\Users\Chaima\Desktop\devops\ProjetsDevopsFinal\GesFormation)
+2022-05-30 13:36:13.987  INFO 27444 --- [main] com.esprit.examen.SessionServiceTest     : No active profile set, falling back to default profiles: default
+2022-05-30 13:36:21.863  INFO 27444 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-30 13:36:22.245  INFO 27444 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2022-05-30 13:36:22.993  INFO 27444 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-05-30 13:36:24.682  INFO 27444 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-30 13:36:27.111  INFO 27444 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-30 13:36:31.410  WARN 27444 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 13:36:34.775  INFO 27444 --- [main] com.esprit.examen.SessionServiceTest     : Started SessionServiceTest in 22.486 seconds (JVM running for 28.332)
+2022-05-30 13:36:36.152  INFO 27444 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : getSessionById exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:36:36.334  INFO 27444 --- [main] c.esprit.examen.services.SessionService  : la session Ã  Ã©tÃ© modifiÃ© avec succes_1
+2022-05-30 13:36:36.335  INFO 27444 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : modifierSession exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:36:36.356  INFO 27444 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : getSessionById exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:36:36.534  INFO 27444 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : affecterFormateurASession exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:36:36.553  INFO 27444 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : getSessionById exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:36:36.624  INFO 27444 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : addSession exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:38:12.393  INFO 3224 --- [main] com.esprit.examen.SessionServiceTest     : Starting SessionServiceTest on LAPTOP-53ACSG4Q with PID 3224 (started by Chaima in C:\Users\Chaima\Desktop\devops\ProjetsDevopsFinal\GesFormation)
+2022-05-30 13:38:12.399  INFO 3224 --- [main] com.esprit.examen.SessionServiceTest     : No active profile set, falling back to default profiles: default
+2022-05-30 13:38:20.066  INFO 3224 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-30 13:38:20.343  INFO 3224 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2022-05-30 13:38:20.781  INFO 3224 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-05-30 13:38:21.883  INFO 3224 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-30 13:38:24.902  INFO 3224 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-30 13:38:29.878  WARN 3224 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 13:38:33.533  INFO 3224 --- [main] com.esprit.examen.SessionServiceTest     : Started SessionServiceTest in 22.803 seconds (JVM running for 26.415)
+2022-05-30 13:38:35.131  INFO 3224 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : getSessionById exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:38:35.321  INFO 3224 --- [main] c.esprit.examen.services.SessionService  : la session Ã  Ã©tÃ© modifiÃ© avec succes_1
+2022-05-30 13:38:35.322  INFO 3224 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : modifierSession exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:38:35.345  INFO 3224 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : getSessionById exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:38:35.494  INFO 3224 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : affecterFormateurASession exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:38:35.515  INFO 3224 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : getSessionById exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:38:35.593  INFO 3224 --- [main] com.esprit.examen.config.LoggingAspect   : mÃ©thode : addSession exÃ©cutÃ©e avec succÃ¨s
+2022-05-30 13:46:42.004  INFO 17380 --- [main] com.esprit.examen.CoursServiceTest       : Starting CoursServiceTest on LAPTOP-53ACSG4Q with PID 17380 (started by Chaima in C:\Users\Chaima\Desktop\devops\ProjetsDevopsFinal\GesFormation)
+2022-05-30 13:46:42.096  INFO 17380 --- [main] com.esprit.examen.CoursServiceTest       : No active profile set, falling back to default profiles: default
+2022-05-30 13:47:15.210  INFO 17380 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-30 13:47:16.766  INFO 17380 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2022-05-30 13:47:19.873  INFO 17380 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-05-30 13:47:27.614  INFO 17380 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-30 13:47:39.639  INFO 17380 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-30 13:47:52.074  WARN 17380 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 13:48:02.645  INFO 17380 --- [main] com.esprit.examen.CoursServiceTest       : Started CoursServiceTest in 86.27 seconds (JVM running for 106.835)
+2022-05-30 13:48:05.520  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getCoursByIdgt exécutée avec succès
+2022-05-30 13:48:06.082  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : modifierCours exécutée avec succès
+2022-05-30 13:48:06.094  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getCoursByIdgt exécutée avec succès
+2022-05-30 13:48:07.432  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : addCours exécutée avec succès
+2022-05-30 13:48:08.785  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : listFormateurs exécutée avec succès
+2022-05-30 13:48:09.048  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getFormateurById exécutée avec succès
+2022-05-30 13:48:09.178  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : modifierFormateur exécutée avec succès
+2022-05-30 13:48:09.192  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getFormateurById exécutée avec succès
+2022-05-30 13:48:09.662  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : nombreFormateursImpliquesDansUnCours exécutée avec succès
+2022-05-30 13:48:09.964  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : addFormateur exécutée avec succès
+2022-05-30 13:48:10.235  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getSessionById exécutée avec succès
+2022-05-30 13:48:10.386  INFO 17380 --- [main] c.esprit.examen.services.SessionService  : la session à été modifié avec succes_1
+2022-05-30 13:48:10.387  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : modifierSession exécutée avec succès
+2022-05-30 13:48:10.403  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getSessionById exécutée avec succès
+2022-05-30 13:48:10.487  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : affecterFormateurASession exécutée avec succès
+2022-05-30 13:48:10.506  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getSessionById exécutée avec succès
+2022-05-30 13:48:10.575  INFO 17380 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : addSession exécutée avec succès
+2022-05-30 13:51:10.984  INFO 16760 --- [main] com.esprit.examen.CoursServiceTest       : Starting CoursServiceTest on LAPTOP-53ACSG4Q with PID 16760 (started by Chaima in C:\Users\Chaima\Desktop\devops\ProjetsDevopsFinal\GesFormation)
+2022-05-30 13:51:10.993  INFO 16760 --- [main] com.esprit.examen.CoursServiceTest       : No active profile set, falling back to default profiles: default
+2022-05-30 13:51:41.578  INFO 16760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-30 13:51:43.266  INFO 16760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2022-05-30 13:51:47.425  INFO 16760 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-05-30 13:51:56.027  INFO 16760 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-30 13:52:08.741  INFO 16760 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-30 13:52:25.984  WARN 16760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 13:52:39.313  INFO 16760 --- [main] com.esprit.examen.CoursServiceTest       : Started CoursServiceTest in 94.267 seconds (JVM running for 114.558)
+2022-05-30 13:52:41.102  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getCoursByIdgt exécutée avec succès
+2022-05-30 13:52:41.571  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : modifierCours exécutée avec succès
+2022-05-30 13:52:41.584  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getCoursByIdgt exécutée avec succès
+2022-05-30 13:52:42.904  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : addCours exécutée avec succès
+2022-05-30 13:52:44.141  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : listFormateurs exécutée avec succès
+2022-05-30 13:52:44.417  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getFormateurById exécutée avec succès
+2022-05-30 13:52:44.564  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : modifierFormateur exécutée avec succès
+2022-05-30 13:52:44.576  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getFormateurById exécutée avec succès
+2022-05-30 13:52:45.122  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : nombreFormateursImpliquesDansUnCours exécutée avec succès
+2022-05-30 13:52:45.244  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : addFormateur exécutée avec succès
+2022-05-30 13:52:45.522  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getSessionById exécutée avec succès
+2022-05-30 13:52:45.731  INFO 16760 --- [main] c.esprit.examen.services.SessionService  : la session à été modifié avec succes_1
+2022-05-30 13:52:45.733  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : modifierSession exécutée avec succès
+2022-05-30 13:52:45.764  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getSessionById exécutée avec succès
+2022-05-30 13:52:45.966  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : affecterFormateurASession exécutée avec succès
+2022-05-30 13:52:45.989  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getSessionById exécutée avec succès
+2022-05-30 13:52:46.068  INFO 16760 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : addSession exécutée avec succès
+2022-05-30 14:51:45.199  INFO 28112 --- [main] com.esprit.examen.CoursServiceTest       : Starting CoursServiceTest on LAPTOP-53ACSG4Q with PID 28112 (started by Chaima in C:\Users\Chaima\Desktop\devops\ProjetsDevopsFinal\GesFormation)
+2022-05-30 14:51:45.247  INFO 28112 --- [main] com.esprit.examen.CoursServiceTest       : No active profile set, falling back to default profiles: default
+2022-05-30 14:52:13.504  INFO 28112 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-30 14:52:14.522  INFO 28112 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2022-05-30 14:52:17.025  INFO 28112 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-05-30 14:52:24.642  INFO 28112 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-30 14:52:36.648  INFO 28112 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-30 14:52:51.899  WARN 28112 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-30 14:53:03.083  INFO 28112 --- [main] com.esprit.examen.CoursServiceTest       : Started CoursServiceTest in 84.58 seconds (JVM running for 104.981)
+2022-05-30 14:53:05.041  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getCoursByIdgt exécutée avec succès
+2022-05-30 14:53:05.340  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : modifierCours exécutée avec succès
+2022-05-30 14:53:05.435  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getCoursByIdgt exécutée avec succès
+2022-05-30 14:53:06.268  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : addCours exécutée avec succès
+2022-05-30 14:53:07.156  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : listFormateurs exécutée avec succès
+2022-05-30 14:53:07.325  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getFormateurById exécutée avec succès
+2022-05-30 14:53:07.499  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : modifierFormateur exécutée avec succès
+2022-05-30 14:53:07.553  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getFormateurById exécutée avec succès
+2022-05-30 14:53:08.356  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : nombreFormateursImpliquesDansUnCours exécutée avec succès
+2022-05-30 14:53:08.411  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : addFormateur exécutée avec succès
+2022-05-30 14:53:08.656  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getSessionById exécutée avec succès
+2022-05-30 14:53:08.795  INFO 28112 --- [main] c.esprit.examen.services.SessionService  : la session à été modifié avec succes_1
+2022-05-30 14:53:08.797  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : modifierSession exécutée avec succès
+2022-05-30 14:53:08.945  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getSessionById exécutée avec succès
+2022-05-30 14:53:09.094  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : affecterFormateurASession exécutée avec succès
+2022-05-30 14:53:09.117  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : getSessionById exécutée avec succès
+2022-05-30 14:53:09.182  INFO 28112 --- [main] com.esprit.examen.config.LoggingAspect   : méthode : addSession exécutée avec succès
